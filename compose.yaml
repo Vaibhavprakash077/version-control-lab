@@ -1,0 +1,5 @@
+services:
+  web:
+    image:python:3.12.3
+    environments:
+      APP_ENV= ${APP_ENV}
